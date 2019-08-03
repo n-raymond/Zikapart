@@ -1,12 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.01">
-  <programVersion>3.0.5</programVersion>
-  <programRevision>58dd23d</programRevision>
+  <programVersion>3.2.3</programVersion>
+  <programRevision>d2d863f</programRevision>
   <Score>
     <layoutMode>line</layoutMode>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Synthesizer>
+      <master>
+        <val id="0">Zita1</val>
+        <val id="1">NoEffect</val>
+        <val id="2">0.1</val>
+        <val id="3">440</val>
+        <val id="4">1</val>
+        <val id="5">1</val>
+        </master>
+      <Fluid>
+        <val id="0">MuseScore_General.sf3</val>
+        </Fluid>
+      <Zerberus>
+        </Zerberus>
+      <Zita1>
+        <val id="0">0.25</val>
+        <val id="1">0.462756</val>
+        <val id="2">0.161809</val>
+        <val id="3">0.333333</val>
+        <val id="4">0.25</val>
+        <val id="5">0.335245</val>
+        <val id="6">0.5</val>
+        <val id="7">0.664755</val>
+        <val id="8">0.5</val>
+        <val id="9">0.33</val>
+        </Zita1>
+      <master>
+        <val id="0">Zita1</val>
+        <val id="1">NoEffect</val>
+        <val id="2">0.1</val>
+        <val id="3">440</val>
+        <val id="4">1</val>
+        <val id="5">1</val>
+        </master>
+      <Fluid>
+        <val id="0">MuseScore_General.sf3</val>
+        </Fluid>
+      <Zerberus>
+        </Zerberus>
+      <Zita1>
+        <val id="0">0.25</val>
+        <val id="1">0.462756</val>
+        <val id="2">0.161809</val>
+        <val id="3">0.333333</val>
+        <val id="4">0.25</val>
+        <val id="5">0.335245</val>
+        <val id="6">0.5</val>
+        <val id="7">0.664755</val>
+        <val id="8">0.5</val>
+        <val id="9">0.33</val>
+        </Zita1>
       <master>
         <val id="0">Zita1</val>
         <val id="1">NoEffect</val>
@@ -164,6 +214,8 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
+          <controller ctrl="32" value="17"/>
           <program value="73"/>
           <controller ctrl="7" value="64"/>
           <synti>Fluid</synti>
@@ -751,6 +803,7 @@
           </Articulation>
         <Channel>
           <controller ctrl="0" value="1"/>
+          <controller ctrl="32" value="0"/>
           <program value="0"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
@@ -1330,7 +1383,6 @@
                 <subtype>0</subtype>
                 <offset x="0.243635" y="-5.84723"/>
                 <off2 x="0" y="0"/>
-                <offset x="0.243635" y="-5.84723"/>
                 </Segment>
               </Vibrato>
             <next>
@@ -2056,7 +2108,6 @@
                 <subtype>0</subtype>
                 <offset x="0" y="-1.84575"/>
                 <off2 x="0" y="0"/>
-                <offset x="0" y="-1.84575"/>
                 </Segment>
               </Vibrato>
             <next>
@@ -8827,7 +8878,6 @@
                 <subtype>0</subtype>
                 <offset x="0.200116" y="-4.20245"/>
                 <off2 x="0" y="0"/>
-                <offset x="0.200116" y="-4.20245"/>
                 </Segment>
               </TextLine>
             <next>
@@ -9205,8 +9255,8 @@
                 </Spanner>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>4</fret>
-              <string>2</string>
+              <fret>9</fret>
+              <string>3</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -9223,8 +9273,8 @@
                 </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              <fret>5</fret>
-              <string>1</string>
+              <fret>9</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -9241,8 +9291,8 @@
                 </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
-              <fret>3</fret>
-              <string>0</string>
+              <fret>8</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -9264,8 +9314,8 @@
                 </Spanner>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>4</fret>
-              <string>2</string>
+              <fret>9</fret>
+              <string>3</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -9279,8 +9329,8 @@
                 </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              <fret>5</fret>
-              <string>1</string>
+              <fret>9</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -9294,8 +9344,8 @@
                 </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
-              <fret>3</fret>
-              <string>0</string>
+              <fret>8</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Rest>
@@ -9323,8 +9373,8 @@
                 </Spanner>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>5</fret>
-              <string>2</string>
+              <fret>10</fret>
+              <string>3</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -9340,8 +9390,8 @@
                 </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              <fret>5</fret>
-              <string>1</string>
+              <fret>9</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -9357,8 +9407,8 @@
                 </Spanner>
               <pitch>69</pitch>
               <tpc>17</tpc>
-              <fret>5</fret>
-              <string>0</string>
+              <fret>10</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -9375,8 +9425,8 @@
                 </Spanner>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>5</fret>
-              <string>2</string>
+              <fret>10</fret>
+              <string>3</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -9389,8 +9439,8 @@
                 </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              <fret>5</fret>
-              <string>1</string>
+              <fret>9</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -9403,8 +9453,8 @@
                 </Spanner>
               <pitch>69</pitch>
               <tpc>17</tpc>
-              <fret>5</fret>
-              <string>0</string>
+              <fret>10</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -9560,8 +9610,8 @@
                 </Spanner>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>4</fret>
-              <string>2</string>
+              <fret>9</fret>
+              <string>3</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -9578,8 +9628,8 @@
                 </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              <fret>5</fret>
-              <string>1</string>
+              <fret>9</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -9596,8 +9646,8 @@
                 </Spanner>
               <pitch>66</pitch>
               <tpc>20</tpc>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>7</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -9619,8 +9669,8 @@
                 </Spanner>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>4</fret>
-              <string>2</string>
+              <fret>9</fret>
+              <string>3</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -9634,8 +9684,8 @@
                 </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              <fret>5</fret>
-              <string>1</string>
+              <fret>9</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -9649,8 +9699,8 @@
                 </Spanner>
               <pitch>66</pitch>
               <tpc>20</tpc>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>7</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Rest>
@@ -9686,8 +9736,8 @@
                 </Spanner>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>10</fret>
-              <string>4</string>
+              <fret>5</fret>
+              <string>3</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -9703,8 +9753,8 @@
                 </Spanner>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>9</fret>
-              <string>3</string>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -9738,8 +9788,8 @@
                 </Spanner>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>10</fret>
-              <string>4</string>
+              <fret>5</fret>
+              <string>3</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -9752,8 +9802,8 @@
                 </Spanner>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>9</fret>
-              <string>3</string>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             <Note>
               <linkedMain/>
@@ -9995,6 +10045,12 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <Bend>
+                <point time="0" pitch="0" vibrato="0"/>
+                <point time="5" pitch="100" vibrato="0"/>
+                <point time="60" pitch="100" vibrato="0"/>
+                <linkedMain/>
+                </Bend>
               <Spanner type="Tie">
                 <Tie>
                   <linkedMain/>
@@ -10006,9 +10062,9 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              <fret>11</fret>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>9</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -10033,9 +10089,9 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              <fret>11</fret>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>9</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -10236,8 +10292,8 @@
                 </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
-              <fret>3</fret>
-              <string>0</string>
+              <fret>12</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -10254,8 +10310,8 @@
                 </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
-              <fret>3</fret>
-              <string>0</string>
+              <fret>12</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -10275,8 +10331,8 @@
                 </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>14</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -10293,8 +10349,8 @@
                 </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>14</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -10307,8 +10363,8 @@
                 </Accidental>
               <pitch>61</pitch>
               <tpc>21</tpc>
-              <fret>2</fret>
-              <string>1</string>
+              <fret>11</fret>
+              <string>3</string>
               </Note>
             </Chord>
           </voice>
@@ -10568,8 +10624,8 @@
                 </Accidental>
               <pitch>61</pitch>
               <tpc>21</tpc>
-              <fret>2</fret>
-              <string>1</string>
+              <fret>11</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -10577,20 +10633,32 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              <fret>11</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <Spanner type="Tie">
                 <Tie>
+                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
                     <measures>1</measures>
                     <fractions>-7/8</fractions>
+                    <notes>-1</notes>
                     </location>
                   </next>
                 </Spanner>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
+              <pitch>70</pitch>
+              <tpc>24</tpc>
               <fret>11</fret>
-              <string>2</string>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -10608,13 +10676,14 @@
                   <location>
                     <measures>-1</measures>
                     <fractions>7/8</fractions>
+                    <notes>1</notes>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
+              <pitch>70</pitch>
+              <tpc>24</tpc>
               <fret>11</fret>
-              <string>2</string>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -11041,6 +11110,16 @@
             <durationType>eighth</durationType>
             <Note>
               <linkedMain/>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              <fret>11</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <linkedMain/>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
               <Spanner type="Tie">
                 <Tie>
                   <linkedMain/>
@@ -11049,13 +11128,14 @@
                   <location>
                     <measures>1</measures>
                     <fractions>-7/8</fractions>
+                    <notes>-1</notes>
                     </location>
                   </next>
                 </Spanner>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              <fret>11</fret>
-              <string>2</string>
+              <pitch>73</pitch>
+              <tpc>9</tpc>
+              <fret>14</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -11073,13 +11153,14 @@
                   <location>
                     <measures>-1</measures>
                     <fractions>7/8</fractions>
+                    <notes>1</notes>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              <fret>11</fret>
-              <string>2</string>
+              <pitch>73</pitch>
+              <tpc>9</tpc>
+              <fret>14</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -11106,8 +11187,8 @@
                 </Spanner>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>2</fret>
-              <string>3</string>
+              <fret>7</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -11125,8 +11206,8 @@
                 </Spanner>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>2</fret>
-              <string>3</string>
+              <fret>7</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -13667,7 +13748,6 @@
                 <subtype>0</subtype>
                 <offset x="0.100058" y="-1.50087"/>
                 <off2 x="0" y="0"/>
-                <offset x="0.100058" y="-1.50087"/>
                 </Segment>
               </TextLine>
             <next>
@@ -14088,8 +14168,8 @@
                 </Spanner>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>4</fret>
-              <string>2</string>
+              <fret>9</fret>
+              <string>3</string>
               </Note>
             <Note>
               <linked>
@@ -14108,8 +14188,8 @@
                 </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              <fret>5</fret>
-              <string>1</string>
+              <fret>9</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linked>
@@ -14128,8 +14208,8 @@
                 </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
-              <fret>3</fret>
-              <string>0</string>
+              <fret>8</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -14153,8 +14233,8 @@
                 </Spanner>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>4</fret>
-              <string>2</string>
+              <fret>9</fret>
+              <string>3</string>
               </Note>
             <Note>
               <linked>
@@ -14169,8 +14249,8 @@
                 </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              <fret>5</fret>
-              <string>1</string>
+              <fret>9</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linked>
@@ -14185,8 +14265,8 @@
                 </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
-              <fret>3</fret>
-              <string>0</string>
+              <fret>8</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Rest>
@@ -14219,8 +14299,8 @@
                 </Spanner>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>5</fret>
-              <string>2</string>
+              <fret>10</fret>
+              <string>3</string>
               </Note>
             <Note>
               <linked>
@@ -14238,8 +14318,8 @@
                 </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              <fret>5</fret>
-              <string>1</string>
+              <fret>9</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linked>
@@ -14257,8 +14337,8 @@
                 </Spanner>
               <pitch>69</pitch>
               <tpc>17</tpc>
-              <fret>5</fret>
-              <string>0</string>
+              <fret>10</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -14277,8 +14357,8 @@
                 </Spanner>
               <pitch>60</pitch>
               <tpc>14</tpc>
-              <fret>5</fret>
-              <string>2</string>
+              <fret>10</fret>
+              <string>3</string>
               </Note>
             <Note>
               <linked>
@@ -14292,8 +14372,8 @@
                 </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              <fret>5</fret>
-              <string>1</string>
+              <fret>9</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linked>
@@ -14307,8 +14387,8 @@
                 </Spanner>
               <pitch>69</pitch>
               <tpc>17</tpc>
-              <fret>5</fret>
-              <string>0</string>
+              <fret>10</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -14483,8 +14563,8 @@
                 </Spanner>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>4</fret>
-              <string>2</string>
+              <fret>9</fret>
+              <string>3</string>
               </Note>
             <Note>
               <linked>
@@ -14503,8 +14583,8 @@
                 </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              <fret>5</fret>
-              <string>1</string>
+              <fret>9</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linked>
@@ -14523,8 +14603,8 @@
                 </Spanner>
               <pitch>66</pitch>
               <tpc>20</tpc>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>7</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -14548,8 +14628,8 @@
                 </Spanner>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>4</fret>
-              <string>2</string>
+              <fret>9</fret>
+              <string>3</string>
               </Note>
             <Note>
               <linked>
@@ -14564,8 +14644,8 @@
                 </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              <fret>5</fret>
-              <string>1</string>
+              <fret>9</fret>
+              <string>2</string>
               </Note>
             <Note>
               <linked>
@@ -14580,8 +14660,8 @@
                 </Spanner>
               <pitch>66</pitch>
               <tpc>20</tpc>
-              <fret>2</fret>
-              <string>0</string>
+              <fret>7</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Rest>
@@ -14623,8 +14703,8 @@
                 </Spanner>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>10</fret>
-              <string>4</string>
+              <fret>5</fret>
+              <string>3</string>
               </Note>
             <Note>
               <linked>
@@ -14642,8 +14722,8 @@
                 </Spanner>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>9</fret>
-              <string>3</string>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             <Note>
               <linked>
@@ -14681,8 +14761,8 @@
                 </Spanner>
               <pitch>55</pitch>
               <tpc>15</tpc>
-              <fret>10</fret>
-              <string>4</string>
+              <fret>5</fret>
+              <string>3</string>
               </Note>
             <Note>
               <linked>
@@ -14696,8 +14776,8 @@
                 </Spanner>
               <pitch>59</pitch>
               <tpc>19</tpc>
-              <fret>9</fret>
-              <string>3</string>
+              <fret>0</fret>
+              <string>1</string>
               </Note>
             <Note>
               <linked>
@@ -14969,6 +15049,13 @@
             <Note>
               <linked>
                 </linked>
+              <Bend>
+                <point time="0" pitch="0" vibrato="0"/>
+                <point time="5" pitch="100" vibrato="0"/>
+                <point time="60" pitch="100" vibrato="0"/>
+                <linked>
+                  </linked>
+                </Bend>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
@@ -14981,9 +15068,9 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              <fret>11</fret>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>9</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -15010,9 +15097,9 @@
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              <fret>11</fret>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>9</fret>
               <string>2</string>
               </Note>
             </Chord>
@@ -15232,8 +15319,8 @@
                 </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
-              <fret>3</fret>
-              <string>0</string>
+              <fret>12</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -15252,8 +15339,8 @@
                 </Spanner>
               <pitch>67</pitch>
               <tpc>15</tpc>
-              <fret>3</fret>
-              <string>0</string>
+              <fret>12</fret>
+              <string>2</string>
               </Note>
             </Chord>
           <Chord>
@@ -15276,8 +15363,8 @@
                 </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>14</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -15296,8 +15383,8 @@
                 </Spanner>
               <pitch>64</pitch>
               <tpc>18</tpc>
-              <fret>0</fret>
-              <string>0</string>
+              <fret>14</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -15309,8 +15396,8 @@
                 </linked>
               <pitch>61</pitch>
               <tpc>21</tpc>
-              <fret>2</fret>
-              <string>1</string>
+              <fret>11</fret>
+              <string>3</string>
               </Note>
             </Chord>
           </voice>
@@ -15602,8 +15689,8 @@
                 </Accidental>
               <pitch>61</pitch>
               <tpc>21</tpc>
-              <fret>2</fret>
-              <string>1</string>
+              <fret>11</fret>
+              <string>3</string>
               </Note>
             </Chord>
           <Chord>
@@ -15618,6 +15705,27 @@
               <fret>11</fret>
               <string>2</string>
               </Note>
+            <Note>
+              <linked>
+                </linked>
+              <Spanner type="Tie">
+                <Tie>
+                  <linked>
+                    </linked>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-7/8</fractions>
+                    <notes>-1</notes>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>70</pitch>
+              <tpc>24</tpc>
+              <fret>11</fret>
+              <string>1</string>
+              </Note>
             </Chord>
           </voice>
         </Measure>
@@ -15631,10 +15739,19 @@
             <Note>
               <linked>
                 </linked>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>7/8</fractions>
+                    <notes>1</notes>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>70</pitch>
+              <tpc>24</tpc>
               <fret>11</fret>
-              <string>2</string>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -16115,6 +16232,14 @@
             <Note>
               <linked>
                 </linked>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              <fret>11</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <linked>
+                </linked>
               <Spanner type="Tie">
                 <Tie>
                   <linked>
@@ -16124,13 +16249,14 @@
                   <location>
                     <measures>1</measures>
                     <fractions>-7/8</fractions>
+                    <notes>-1</notes>
                     </location>
                   </next>
                 </Spanner>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              <fret>11</fret>
-              <string>2</string>
+              <pitch>73</pitch>
+              <tpc>9</tpc>
+              <fret>14</fret>
+              <string>1</string>
               </Note>
             </Chord>
           </voice>
@@ -16150,13 +16276,14 @@
                   <location>
                     <measures>-1</measures>
                     <fractions>7/8</fractions>
+                    <notes>1</notes>
                     </location>
                   </prev>
                 </Spanner>
-              <pitch>66</pitch>
-              <tpc>20</tpc>
-              <fret>11</fret>
-              <string>2</string>
+              <pitch>73</pitch>
+              <tpc>9</tpc>
+              <fret>14</fret>
+              <string>1</string>
               </Note>
             </Chord>
           <Chord>
@@ -16187,8 +16314,8 @@
                 </Spanner>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>2</fret>
-              <string>3</string>
+              <fret>7</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -16208,8 +16335,8 @@
                 </Spanner>
               <pitch>52</pitch>
               <tpc>18</tpc>
-              <fret>2</fret>
-              <string>3</string>
+              <fret>7</fret>
+              <string>4</string>
               </Note>
             </Chord>
           <Chord>
@@ -19004,7 +19131,6 @@
               <linkedMain/>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -19018,10 +19144,8 @@
               <string>2</string>
               </Note>
             <Note>
-              <linkedMain/>
               <Spanner type="Tie">
                 <Tie>
-                  <linkedMain/>
                   </Tie>
                 <next>
                   <location>
@@ -19035,7 +19159,6 @@
               <string>1</string>
               </Note>
             <Note>
-              <linkedMain/>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
                 </Accidental>
@@ -20013,7 +20136,6 @@
                 <subtype>0</subtype>
                 <offset x="-1.50087" y="-2.60151"/>
                 <off2 x="1.60093" y="0"/>
-                <offset x="-1.50087" y="-2.60151"/>
                 </Segment>
               </TextLine>
             <next>
@@ -20956,7 +21078,6 @@
                 <subtype>0</subtype>
                 <offset x="0" y="-2.2118"/>
                 <off2 x="0" y="0"/>
-                <offset x="0" y="-2.2118"/>
                 </Segment>
               </Vibrato>
             <next>
@@ -26875,49 +26996,6 @@
             <durationType>eighth</durationType>
             <Note>
               <linked>
-                <indexDiff>-1</indexDiff>
-                </linked>
-              <Spanner type="Tie">
-                <Tie>
-                  <linked>
-                    <indexDiff>-1</indexDiff>
-                    </linked>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
-              <fret>5</fret>
-              <string>1</string>
-              </Note>
-            <Note>
-              <linked>
-                <indexDiff>-1</indexDiff>
-                </linked>
-              <Spanner type="Tie">
-                <Tie>
-                  <linked>
-                    <indexDiff>-1</indexDiff>
-                    </linked>
-                  </Tie>
-                <next>
-                  <location>
-                    <fractions>1/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
-              <pitch>65</pitch>
-              <tpc>13</tpc>
-              <fret>1</fret>
-              <string>0</string>
-              </Note>
-            <Note>
-              <linked>
-                <indexDiff>-4</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <Tie>
@@ -26934,6 +27012,36 @@
               <tpc>19</tpc>
               <fret>4</fret>
               <string>2</string>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <fret>5</fret>
+              <string>1</string>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              <fret>1</fret>
+              <string>0</string>
               </Note>
             </Chord>
           <Chord>
@@ -26942,7 +27050,21 @@
             <durationType>quarter</durationType>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
+                </linked>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <fret>4</fret>
+              <string>2</string>
+              </Note>
+            <Note>
+              <linked>
                 </linked>
               <Spanner type="Tie">
                 <prev>
@@ -26958,7 +27080,6 @@
               </Note>
             <Note>
               <linked>
-                <indexDiff>1</indexDiff>
                 </linked>
               <Spanner type="Tie">
                 <prev>
@@ -26971,22 +27092,6 @@
               <tpc>13</tpc>
               <fret>1</fret>
               <string>0</string>
-              </Note>
-            <Note>
-              <linked>
-                <indexDiff>-2</indexDiff>
-                </linked>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <fractions>-1/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
-              <fret>4</fret>
-              <string>2</string>
               </Note>
             </Chord>
           <Rest>
@@ -27988,7 +28093,6 @@
                 <subtype>0</subtype>
                 <offset x="-1.60093" y="-1.30076"/>
                 <off2 x="1.60093" y="0"/>
-                <offset x="-1.60093" y="-1.30076"/>
                 </Segment>
               </TextLine>
             <next>
@@ -35478,7 +35582,6 @@
                 <subtype>0</subtype>
                 <offset x="0" y="-3.89815"/>
                 <off2 x="0" y="0"/>
-                <offset x="0" y="-3.89815"/>
                 </Segment>
               </Vibrato>
             <next>
@@ -35617,7 +35720,6 @@
                 <subtype>0</subtype>
                 <offset x="0.121817" y="-3.89815"/>
                 <off2 x="0" y="0"/>
-                <offset x="0.121817" y="-3.89815"/>
                 </Segment>
               </Vibrato>
             <next>
@@ -46545,39 +46647,6 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <location>
-            <fractions>1/16</fractions>
-            </location>
-          <location>
-            <fractions>1/8</fractions>
-            </location>
           </voice>
         </Measure>
       <Measure>
